@@ -1,5 +1,5 @@
-name: todo
-description: "A new Flutter project."
+name: todo_app
+description: "A Flutter Productivity App with tasks, stats, and charts."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,7 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.2
-
+  fl_chart: ^0.66.0  
+  intl: ^0.18.1 
+  table_calendar: ^3.0.9
 
 dev_dependencies:
   flutter_test:
